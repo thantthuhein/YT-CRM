@@ -1,0 +1,129 @@
+.ck-editor__editable,
+textarea {
+    min-height: 150px;
+}
+
+.datatable {
+    width: 100% !important;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em;
+
+}
+
+.dt-buttons .btn {
+    margin-left: 0.333em;
+    border-radius: 0;
+    display: none;
+}
+
+.table.datatable {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+table.dataTable thead th {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.select2 {
+    max-width: 100%;
+    width: 100%;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.searchable-title {
+    font-weight: bold;
+}
+.select2-container--open {
+    z-index: 9999;
+}
+.searchable-fields {
+    padding-left:5px;
+}
+.searchable-link {
+    padding:0 5px 0 5px;
+}
+.searchable-link:hover   {
+    cursor: pointer;
+    background: #eaeaea;
+}
+.select2-results__option {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sidebar{
+    overflow: scroll;
+    background-color: #112E48;
+
+
+}
+.brand-link{
+    background-color: #112E48 !important;
+    height: 100px;
+    border: none !important;
+}
+.logo-font{
+    font-size: 2rem;
+}
+.second-background{
+    background-color: #112E48;
+}
+.nav-item{
+    /* line-height: 2; */
+    padding: 2%;
+}
+/* .content-wrapper {
+    background: #03223D;
+} */
+.logo-container{
+    display: flex;
+    flex-direction: row;
+}
+.logo-container >img{
+    margin-top: 5%;
+    margin-right: 3%;
+    width: 70px;
+    height: 100%;
+}
+.logo-font-container{
+    display: flex;
+    flex-direction: column;
+}
+.logo-small-font{
+    font-size: 10px;
+}
+.nav-link p{
+    padding-left: 5% ;
+}
+.second-nav{
+    padding-left: 25% !important;
+}
+/* .arrow-center{
+    transform: translate(8px, 5px);
+
+} */
+.main-font{
+    font-family: Montserrat !important;
+}

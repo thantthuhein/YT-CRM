@@ -1,0 +1,18 @@
+.brand-link{
+    color: red;
+    background-color: bisque;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.in-active-tab{
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+}

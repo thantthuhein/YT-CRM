@@ -1,0 +1,83 @@
+.card-m-b{
+    margin-bottom: 10px;
+}
+.pdf-upload-wrapper{
+    // padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+
+    & div{
+        width: 50%;
+        margin-right: 10px;
+    }
+}
+
+.add-more{
+    width: 20px;
+    background-color: #112E48;
+    width: 4em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+    .icon{
+        font-size: 3em;
+        color: #848EA1;
+    }
+}
+
+.sale-contract-action-list{
+    display: flex;
+    margin-bottom: 5px;
+
+    .sale-contract-action{
+        padding: 3px;
+    }
+
+    .disabled{
+        cursor: not-allowed;
+        opacity: 0.5;
+
+        > a{
+            pointer-events: none;
+            text-decoration: none;
+        }
+    }
+}
+
+.assign-team-list{
+    display: flex;
+
+    .assign-team{
+        padding: 3px;
+        flex-basis: 100%;
+    }
+}
+
+.work-lists{
+    display: flex;
+    flex-wrap: wrap;
+
+    .work-list-item{
+        padding: 3px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        margin: 2px 3px;
+    }
+
+    .remove-work{
+        color: red;
+        font-size: 1.5em;
+    }
+}
+
+.schedule-wrapper{
+    display: flex;
+    
+    & div{
+        flex-basis: 100%;
+    }
+}

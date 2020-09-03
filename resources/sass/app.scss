@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import './dashboard/main';
+@import './dashboard/navcomponent';
+@import './auth/dashboard.scss';
+@import './auth/login.scss';
+@import './dashboard/scrollbar';
+@import './dashboard/enquiries';
+@import './dashboard/dashboardCard';
+@import './dashboard/sale_contract';
+@import './dashboard/excelExport';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';

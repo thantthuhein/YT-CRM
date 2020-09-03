@@ -1,0 +1,12 @@
+.excel-export-options-container{
+    justify-content: space-between;
+
+    .excel-export-options-wrapper{
+        display: flex;
+        margin-right: 5px;
+
+        .excel-export-options{
+            margin-right: 3px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.content-card{
+    height: auto !important;
+    margin-left: 2em;
+    margin-right: 1.5em;
+    border-radius: 1em !important;
+    font-family: Montserrat !important;
+
+}
+.display-card{
+    background: #112e48 !important;
+}
+.header-card{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-right: 1.5em;
+    height: auto;
+    justify-content: space-between;
+}
